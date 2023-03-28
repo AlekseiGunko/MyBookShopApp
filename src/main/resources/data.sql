@@ -23,32 +23,3 @@ insert into books (author, title, priceOld, price) values ('Lindsay Coutthart', 
 insert into books (author, title, priceOld, price) values ('Helyn Schneidar', 'utilize magnetic supply-chains', '$279.70', '$77.86');
 insert into books (author, title, priceOld, price) values ('Bette-ann Askem', 'e-enable dot-com supply-chains', '$297.83', '$110.15');
 insert into books (author, title, priceOld, price) values ('Dom Robuchon', 'facilitate efficient eyeballs', '$232.30', '$131.48');
-
-
-insert into author (bookId, authorName) values ('1', 'Drucie Goodbourn');
-insert into author (bookId, authorName) values ('2', 'Marcia Aggiss');
-insert into author (bookId, authorName) values ('3', 'Giovanni Bigg');
-insert into author (bookId, authorName) values ('4', 'Duffie Eynon');
-insert into author (bookId, authorName) values ('5', 'Anselma McKennan');
-insert into author (bookId, authorName) values ('6', 'Gert Kira');
-insert into author (bookId, authorName) values ('7', 'Clerc Djakovic');
-insert into author (bookId, authorName) values ('8', 'Stacee Elsy');
-insert into author (bookId, authorName) values ('9', 'Dorotea Bonhill');
-insert into author (bookId, authorName) values ('10', 'Minni Bunney');
-insert into author (bookId, authorName) values ('11', 'Berty Gandley');
-insert into author (bookId, authorName) values ('12', 'Raynard Tesdale');
-insert into author (bookId, authorName) values ('13', 'Joanna Hutfield');
-insert into author (bookId, authorName) values ('14', 'Dannie Glidder');
-insert into author (bookId, authorName) values ('15', 'Timmie Adshede');
-insert into author (bookId, authorName) values ('16', 'Fernando Neads');
-insert into author (bookId, authorName) values ('17', 'Teddy Guilliland');
-insert into author (bookId, authorName) values ('18', 'Paloma Grebert');
-insert into author (bookId, authorName) values ('19', 'Kristos Usher');
-insert into author (bookId, authorName) values ('20', 'Darcey Rohmer');
-insert into author (bookId, authorName) values ('21', 'Cristie Isacsson');
-insert into author (bookId, authorName) values ('22', 'Lindsay Coutthart');
-insert into author (bookId, authorName) values ('23', 'Helyn Schneidar');
-insert into author (bookId, authorName) values ('24', 'Bette-ann Askem');
-insert into author (bookId, authorName) values ('25', 'Dom Robuchon');
-
-SELECT * FROM books INNER JOIN author ON books.id=author.bookId

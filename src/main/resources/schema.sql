@@ -8,11 +8,10 @@ priceOld VARCHAR(250) DEFAULT NULL,
 price VARCHAR(250) DEFAULT NULL
 );
 
-DROP TABLE IF EXISTS author;
+DROP TABLE IF EXISTS authors;
 
-CREATE TABLE author(
-                        id INT AUTO_INCREMENT PRIMARY KEY,
-                        bookId INT NOT NULL,
-                        authorName VARCHAR(250) DEFAULT NULL
-
+create table authors (
+id INT,
+first_name VARCHAR(250),
+last_name VARCHAR(250)
 );
